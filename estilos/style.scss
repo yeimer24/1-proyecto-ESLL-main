@@ -1,0 +1,240 @@
+@import "variables";
+/* general */
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #fafafa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    a:hover {
+        color: #e14f4f;
+    }
+    
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-align: center;
+        color: red;
+    }
+}
+
+// a {
+//     text-decoration: none;
+//     color: black;
+//     font-weight: bold;
+
+
+// }
+
+// a:hover {
+//     color: #e14f4f;
+// }
+
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//     text-align: center;
+//     color: red;
+// }
+
+
+
+header {
+    height: 150px;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 0;
+    padding: 10px;
+    nav {
+        height: 50px;
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+        ul li {
+            display: inline;
+            list-style: none;
+            font-family: 'Stoke', serif;
+            font-size: 20px;
+            text-align: center;
+        
+        }
+    
+    }
+}
+
+// // nav {
+// //     height: 50px;
+// //     width: 100%;
+// //     margin: 10px;
+// //     padding: 10px;
+
+// }
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+// nav ul li {
+//     display: inline;
+//     list-style: none;
+//     font-family: 'Stoke', serif;
+//     font-size: 20px;
+//     text-align: center;
+
+// }
+
+
+/* index */
+
+.portada {
+    height: 60vh;
+    width: 100%;
+    background-image: url(../images/miami.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0%;
+    img {
+        width: 100%;
+    }
+
+}
+
+// .portada>img {
+//     width: 100%;
+// }
+
+
+.container-texto,
+.container-video {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-texto div,
+.container-video div {
+    width: 50%;
+}
+
+.video {
+    width: 80%;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+.clearfix {
+    clear: both;
+}
+
+#content {
+    width: 100%;
+    min-height: 500px;
+    margin: 30px;
+}
+
+
+footer {
+    background-color: #AED6F1;
+    color: black;
+    text-align: center;
+    height: 90px;
+    width: 98%;
+    line-height: 0px;
+    padding: 20px;
+
+}
+
+div,
+image {
+    text-align: center;
+    margin: auto;
+    width: auto;
+    height: auto;
+
+}
+
+div,
+iframe {
+    text-align: center;
+    margin: 20px;
+    width: 600x;
+    height: auto;
+}
+
+/* PROJECTS */
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.card {
+    /* width: 30%; */
+    /* height: 400px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: aliceblue;
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.info-imagen {
+    padding: 2px 16px;
+}
+
+.lista-proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: black;
+    font-weight: bold;
+}
+
+.texto {
+    text-align: justify;
+}
+
+/* transcisiones */
+
+
+.transform:hover {
+    transform: translate(50px);
+    transition: transform 1s;
+    transition: all 1s;
+
+
+}
+
+
